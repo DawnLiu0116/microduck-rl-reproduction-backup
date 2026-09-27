@@ -1,0 +1,10 @@
+git_commit=cb70b792312d559a4da09064d92009079671815f
+git_branch=develop
+uv=uv 0.12.17 (x86_64-unknown-linux-gnu)
+python=Python 3.12.14
+torch=2.9.1+cu128
+cuda=12.8
+mujoco=3.10.0
+warp=1.12.0
+onnx=1.22.0
+onnxruntime=1.24.4

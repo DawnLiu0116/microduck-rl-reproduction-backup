@@ -1,0 +1,2 @@
+6452204f7b5ecdec45aa2009b2b1f5fe60a852e039d385200a92d2b97284ec3d  /mnt/c/Users/21045/Documents/Codex/2026-09-14/ti/outputs/microduck_reproduction/checkpoints/model_3999.pt
+369b8e92ab05c95702a1e938f8c84ad18bc3a053e62c5783d427bb6724d7e83a  /mnt/c/Users/21045/Documents/Codex/2026-09-14/ti/outputs/microduck_reproduction/microduck_velocity_flat_seed42_iter3999.onnx

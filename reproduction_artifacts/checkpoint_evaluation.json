@@ -1,0 +1,132 @@
+{
+  "protocol": {
+    "task": "Mjlab-Velocity-Flat-MicroDuck",
+    "num_envs_per_checkpoint": 128,
+    "seed": 123,
+    "one_first_episode_per_env": true,
+    "deterministic_inference_policy": true,
+    "play_config": true
+  },
+  "results": [
+    {
+      "iteration": 0,
+      "episodes": 128,
+      "seed": 123,
+      "success_rate": 0.0,
+      "fell_over_rate": 1.0,
+      "time_out_rate": 0.0,
+      "out_of_terrain_rate": 0.0,
+      "nan_state_rate": 0.0,
+      "mean_episode_steps": 56.4765625,
+      "mean_episode_seconds": 1.1295312643051147,
+      "mean_return": 5.740837097167969,
+      "mean_xy_velocity_error": 0.27437466382980347,
+      "mean_yaw_velocity_error": 0.5156934261322021,
+      "mean_action_delta_l2": 0.02330411970615387,
+      "play_push_interval_seconds": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "iteration": 500,
+      "episodes": 128,
+      "seed": 123,
+      "success_rate": 0.671875,
+      "fell_over_rate": 0.328125,
+      "time_out_rate": 0.671875,
+      "out_of_terrain_rate": 0.0,
+      "nan_state_rate": 0.0,
+      "mean_episode_steps": 854.5546875,
+      "mean_episode_seconds": 17.091094970703125,
+      "mean_return": 123.27328491210938,
+      "mean_xy_velocity_error": 0.1982237994670868,
+      "mean_yaw_velocity_error": 0.6794699430465698,
+      "mean_action_delta_l2": 0.5675338506698608,
+      "play_push_interval_seconds": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "iteration": 1000,
+      "episodes": 128,
+      "seed": 123,
+      "success_rate": 0.640625,
+      "fell_over_rate": 0.359375,
+      "time_out_rate": 0.640625,
+      "out_of_terrain_rate": 0.0,
+      "nan_state_rate": 0.0,
+      "mean_episode_steps": 808.4140625,
+      "mean_episode_seconds": 16.16828155517578,
+      "mean_return": 117.031005859375,
+      "mean_xy_velocity_error": 0.20926740765571594,
+      "mean_yaw_velocity_error": 0.49156472086906433,
+      "mean_action_delta_l2": 0.43045932054519653,
+      "play_push_interval_seconds": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "iteration": 2000,
+      "episodes": 128,
+      "seed": 123,
+      "success_rate": 0.671875,
+      "fell_over_rate": 0.328125,
+      "time_out_rate": 0.671875,
+      "out_of_terrain_rate": 0.0,
+      "nan_state_rate": 0.0,
+      "mean_episode_steps": 822.2734375,
+      "mean_episode_seconds": 16.44546890258789,
+      "mean_return": 115.25894165039062,
+      "mean_xy_velocity_error": 0.20643068850040436,
+      "mean_yaw_velocity_error": 0.42303988337516785,
+      "mean_action_delta_l2": 0.3802400827407837,
+      "play_push_interval_seconds": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "iteration": 3000,
+      "episodes": 128,
+      "seed": 123,
+      "success_rate": 0.75,
+      "fell_over_rate": 0.25,
+      "time_out_rate": 0.75,
+      "out_of_terrain_rate": 0.0,
+      "nan_state_rate": 0.0,
+      "mean_episode_steps": 872.671875,
+      "mean_episode_seconds": 17.45343780517578,
+      "mean_return": 124.86785125732422,
+      "mean_xy_velocity_error": 0.20369675755500793,
+      "mean_yaw_velocity_error": 0.40156498551368713,
+      "mean_action_delta_l2": 0.3763810694217682,
+      "play_push_interval_seconds": [
+        0.5,
+        1.0
+      ]
+    },
+    {
+      "iteration": 3999,
+      "episodes": 128,
+      "seed": 123,
+      "success_rate": 0.7578125,
+      "fell_over_rate": 0.2421875,
+      "time_out_rate": 0.7578125,
+      "out_of_terrain_rate": 0.0,
+      "nan_state_rate": 0.0,
+      "mean_episode_steps": 883.875,
+      "mean_episode_seconds": 17.677499771118164,
+      "mean_return": 128.42410278320312,
+      "mean_xy_velocity_error": 0.19969527423381805,
+      "mean_yaw_velocity_error": 0.3731003403663635,
+      "mean_action_delta_l2": 0.36278054118156433,
+      "play_push_interval_seconds": [
+        0.5,
+        1.0
+      ]
+    }
+  ]
+}

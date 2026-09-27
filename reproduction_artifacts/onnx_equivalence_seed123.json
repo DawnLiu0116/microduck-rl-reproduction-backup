@@ -1,0 +1,22 @@
+{
+  "checkpoint": "/home/deuler/microduck_rl/logs/rsl_rl/velocity/2026-09-22_19-08-01_walk_baseline_4096_seed123_4000_v1/model_3999.pt",
+  "onnx": "/mnt/c/Users/21045/Documents/Codex/2026-09-14/ti/outputs/microduck_reproduction/microduck_velocity_flat_seed123_iter3999.onnx",
+  "onnx_checker_passed": true,
+  "cpu_onnxruntime_passed": true,
+  "input_name": "obs",
+  "input_shape": [
+    1,
+    61
+  ],
+  "output_name": "actions",
+  "output_shape": [
+    1,
+    14
+  ],
+  "observations_tested": 200,
+  "action_values_compared": 2800,
+  "max_absolute_error": 4.76837158203125e-07,
+  "mean_absolute_error": 6.416849629431454e-08,
+  "max_relative_error": 0.0007033870788291097,
+  "all_outputs_finite": true
+}

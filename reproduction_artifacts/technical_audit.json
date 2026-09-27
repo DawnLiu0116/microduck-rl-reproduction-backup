@@ -1,0 +1,129 @@
+{
+  "checkpoints": [
+    {
+      "iteration": 0,
+      "stored_iteration": 0,
+      "bytes": 4842943,
+      "top_level_keys": [
+        "actor_state_dict",
+        "critic_state_dict",
+        "infos",
+        "iter",
+        "optimizer_state_dict"
+      ],
+      "tensor_count": 76,
+      "floating_tensor_count": 74,
+      "nonfinite_tensor_count": 0,
+      "all_floating_tensors_finite": true
+    },
+    {
+      "iteration": 500,
+      "stored_iteration": 500,
+      "bytes": 4843363,
+      "top_level_keys": [
+        "actor_state_dict",
+        "critic_state_dict",
+        "infos",
+        "iter",
+        "optimizer_state_dict"
+      ],
+      "tensor_count": 76,
+      "floating_tensor_count": 74,
+      "nonfinite_tensor_count": 0,
+      "all_floating_tensors_finite": true
+    },
+    {
+      "iteration": 1000,
+      "stored_iteration": 1000,
+      "bytes": 4843445,
+      "top_level_keys": [
+        "actor_state_dict",
+        "critic_state_dict",
+        "infos",
+        "iter",
+        "optimizer_state_dict"
+      ],
+      "tensor_count": 76,
+      "floating_tensor_count": 74,
+      "nonfinite_tensor_count": 0,
+      "all_floating_tensors_finite": true
+    },
+    {
+      "iteration": 2000,
+      "stored_iteration": 2000,
+      "bytes": 4843445,
+      "top_level_keys": [
+        "actor_state_dict",
+        "critic_state_dict",
+        "infos",
+        "iter",
+        "optimizer_state_dict"
+      ],
+      "tensor_count": 76,
+      "floating_tensor_count": 74,
+      "nonfinite_tensor_count": 0,
+      "all_floating_tensors_finite": true
+    },
+    {
+      "iteration": 3000,
+      "stored_iteration": 3000,
+      "bytes": 4843445,
+      "top_level_keys": [
+        "actor_state_dict",
+        "critic_state_dict",
+        "infos",
+        "iter",
+        "optimizer_state_dict"
+      ],
+      "tensor_count": 76,
+      "floating_tensor_count": 74,
+      "nonfinite_tensor_count": 0,
+      "all_floating_tensors_finite": true
+    },
+    {
+      "iteration": 3999,
+      "stored_iteration": 3999,
+      "bytes": 4843445,
+      "top_level_keys": [
+        "actor_state_dict",
+        "critic_state_dict",
+        "infos",
+        "iter",
+        "optimizer_state_dict"
+      ],
+      "tensor_count": 76,
+      "floating_tensor_count": 74,
+      "nonfinite_tensor_count": 0,
+      "all_floating_tensors_finite": true
+    }
+  ],
+  "onnx": {
+    "checker_passed": true,
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "input_name": "obs",
+    "input_shape": [
+      1,
+      61
+    ],
+    "input_type": "tensor(float)",
+    "output_name": "actions",
+    "output_shape": [
+      1,
+      14
+    ],
+    "output_type": "tensor(float)",
+    "test_batch_shape": [
+      33,
+      61
+    ],
+    "result_shape": [
+      33,
+      14
+    ],
+    "all_outputs_finite": true,
+    "output_min": -6.545456886291504,
+    "output_max": 7.261371612548828
+  }
+}

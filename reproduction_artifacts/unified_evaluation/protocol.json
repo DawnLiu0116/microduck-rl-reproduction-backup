@@ -1,0 +1,50 @@
+{
+  "protocol_version": "1.0",
+  "task": "Mjlab-Velocity-Flat-MicroDuck",
+  "episodes_per_scenario": 128,
+  "evaluation_seed": 123,
+  "episode_seconds": 20.0,
+  "control_hz": 50,
+  "deterministic_actor": true,
+  "first_episode_only": true,
+  "environment_base": "play config with domain randomization enabled",
+  "scenarios": {
+    "Nominal": {
+      "push_interval_seconds": [1000.0, 1001.0],
+      "command": "task-default randomized velocity command"
+    },
+    "Train-like": {
+      "push_interval_seconds": [3.0, 6.0],
+      "command": "task-default randomized velocity command"
+    },
+    "Stress": {
+      "push_interval_seconds": [0.5, 1.0],
+      "command": "task-default randomized velocity command"
+    },
+    "Forward": {
+      "push_interval_seconds": [1000.0, 1001.0],
+      "command_body_frame": [0.3, 0.0, 0.0],
+      "head_and_body_pose_commands": "zero"
+    },
+    "Turning": {
+      "push_interval_seconds": [1000.0, 1001.0],
+      "command_body_frame": [0.0, 0.0, 0.6],
+      "head_and_body_pose_commands": "zero"
+    },
+    "Standing": {
+      "push_interval_seconds": [1000.0, 1001.0],
+      "command_body_frame": [0.0, 0.0, 0.0],
+      "head_and_body_pose_commands": "zero"
+    }
+  },
+  "primary_metrics": [
+    "20-second success rate and Wilson 95% interval",
+    "fell-over rate and Wilson 95% interval",
+    "mean episode duration",
+    "mean return",
+    "mean XY velocity tracking error in m/s",
+    "mean yaw velocity tracking error in rad/s",
+    "mean L2 policy action change per control step",
+    "NaN and terrain-bound termination rates"
+  ]
+}

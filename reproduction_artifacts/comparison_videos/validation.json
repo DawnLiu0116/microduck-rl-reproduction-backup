@@ -1,0 +1,56 @@
+[
+  {
+    "file": "microduck_seed123_forward-step-0.mp4",
+    "bytes": 656233,
+    "frames": 500,
+    "width": 640,
+    "height": 480,
+    "duration_seconds_at_50fps": 10.0,
+    "decode_ok": true
+  },
+  {
+    "file": "microduck_seed123_stress-step-0.mp4",
+    "bytes": 643764,
+    "frames": 500,
+    "width": 640,
+    "height": 480,
+    "duration_seconds_at_50fps": 10.0,
+    "decode_ok": true
+  },
+  {
+    "file": "microduck_seed123_turning-step-0.mp4",
+    "bytes": 575073,
+    "frames": 500,
+    "width": 640,
+    "height": 480,
+    "duration_seconds_at_50fps": 10.0,
+    "decode_ok": true
+  },
+  {
+    "file": "microduck_seed42_forward-step-0.mp4",
+    "bytes": 646843,
+    "frames": 500,
+    "width": 640,
+    "height": 480,
+    "duration_seconds_at_50fps": 10.0,
+    "decode_ok": true
+  },
+  {
+    "file": "microduck_seed42_stress-step-0.mp4",
+    "bytes": 643294,
+    "frames": 500,
+    "width": 640,
+    "height": 480,
+    "duration_seconds_at_50fps": 10.0,
+    "decode_ok": true
+  },
+  {
+    "file": "microduck_seed42_turning-step-0.mp4",
+    "bytes": 64483,
+    "frames": 500,
+    "width": 640,
+    "height": 480,
+    "duration_seconds_at_50fps": 10.0,
+    "decode_ok": true
+  }
+]

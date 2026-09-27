@@ -1,0 +1,121 @@
+{
+  "evaluation_seed4004_ok": true,
+  "video_set_ok": true,
+  "overall_ok": true,
+  "seed4004_result_count": 18,
+  "videos": [
+    {
+      "file": "microduck_official_forward-step-0.mp4",
+      "bytes": 647436,
+      "sha256": "2fd1c648a4385f538f8b355e8912ad55196c66c9b7126ca824e47a2dea924564",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_official_stress-step-0.mp4",
+      "bytes": 629588,
+      "sha256": "cef3349ac9145b8fb9e1ac330fde806097e88814e4aa7f7cc5be8219d8a2fcb2",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_official_turning-step-0.mp4",
+      "bytes": 67297,
+      "sha256": "9c608d2f54620b782a8ad3212335b37d924a9825dab51a9d6bddcceaf3140f24",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_seed123_forward-step-0.mp4",
+      "bytes": 656233,
+      "sha256": "8cb2f16aec9912f049995a77b5f5d1f6c17f1710fc7f2d89b1f0af2e278f188d",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_seed123_stress-step-0.mp4",
+      "bytes": 643764,
+      "sha256": "a8d57f2e803dabbfcda2b6578e24b24e26f6031b2dce13b39b80924aa5fb1ebf",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_seed123_turning-step-0.mp4",
+      "bytes": 575073,
+      "sha256": "22c8fd7f51d2e6b79f849e0675d01139b216d40f2d1aef299fae7d20aaae854e",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_seed42_forward-step-0.mp4",
+      "bytes": 646843,
+      "sha256": "c12a1fd65ea0778c5fc967c9454b2ce0216e4bfd295e51b4e29dd5f6fe6018d4",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_seed42_stress-step-0.mp4",
+      "bytes": 643294,
+      "sha256": "0eb6d759e64a5c68fadc513efc28aa63ef27bc0863e4d2c170d7a5f1ccb75e5b",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    },
+    {
+      "file": "microduck_seed42_turning-step-0.mp4",
+      "bytes": 64483,
+      "sha256": "a66ca5a2aa2ec94c2a3841b63363ee460e2651fc4f7461ef8d452e4d3321ca73",
+      "frames": 500,
+      "width": 640,
+      "height": 480,
+      "decode_ok": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "microduck_velocity_flat_seed42_iter3999.onnx",
+      "bytes": 793815,
+      "sha256": "369b8e92ab05c95702a1e938f8c84ad18bc3a053e62c5783d427bb6724d7e83a"
+    },
+    {
+      "file": "microduck_velocity_flat_seed123_iter3999.onnx",
+      "bytes": 793816,
+      "sha256": "a37de827cf0ac4e4fcdabb3b706102e10c1a3f880df8a93f6b38efc22b897c03"
+    },
+    {
+      "file": "official_comparison/alpha_walking_official.onnx",
+      "bytes": 793705,
+      "sha256": "e36332d383997d51401897734cd3e79cf5038406feddb18b4d57ecfb141daa6c"
+    },
+    {
+      "file": "unified_evaluation/multi_seed/multi_seed_evaluation.json",
+      "bytes": 52512,
+      "sha256": "d00309926120d8ece522da238ffaf2396e3fe1293105ab0e82216c5a72b5f18a"
+    },
+    {
+      "file": "official_comparison/official_multi_seed_evaluation.json",
+      "bytes": 25736,
+      "sha256": "9f4227bb238212ef7046500252a371e0db33d47dba7252440d6c8d1946496eae"
+    },
+    {
+      "file": "independent_seed4004/seed4004_results.json",
+      "bytes": 20829,
+      "sha256": "37406fe775e5cbf2fd69411a23ad7a888820933fa0c14cb5053ec2b939a7d450"
+    }
+  ]
+}

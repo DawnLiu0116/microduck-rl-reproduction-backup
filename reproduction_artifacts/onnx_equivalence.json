@@ -1,0 +1,8 @@
+{
+  "observations_tested": 200,
+  "action_values_compared": 2800,
+  "max_absolute_error": 4.172325134277344e-07,
+  "mean_absolute_error": 5.847558171012679e-08,
+  "max_relative_error": 0.0003660643706098199,
+  "all_finite": true
+}
