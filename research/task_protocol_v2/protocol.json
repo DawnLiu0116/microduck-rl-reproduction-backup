@@ -1,0 +1,20 @@
+{
+  "protocol_version": "2.1-measurement-only",
+  "status": "active",
+  "updated_on": "2026-09-28",
+  "task": "Mjlab-Velocity-Flat-MicroDuck",
+  "control_hz": 50,
+  "episode_seconds": 20,
+  "evaluation_seeds": [1001, 2002, 3003],
+  "episodes_per_model_scenario_seed": 128,
+  "inference": "deterministic",
+  "binary_task_thresholds": null,
+  "reporting_rule": "Report survival separately from continuous task metrics. Do not convert continuous metrics into task pass/fail labels.",
+  "scenarios": {
+    "Forward": {"command": [0.3, 0.0, 0.0], "push_interval_seconds": [1000.0, 1001.0], "metrics": ["survival", "mean_abs_vx_error_mps", "mean_abs_vy_mps", "absolute_lateral_displacement_m", "planar_displacement_m"]},
+    "Turning": {"command": [0.0, 0.0, 0.6], "push_interval_seconds": [1000.0, 1001.0], "metrics": ["survival", "mean_abs_yaw_error_radps", "mean_planar_speed_mps", "absolute_lateral_displacement_m", "planar_displacement_m"]},
+    "Standing": {"command": [0.0, 0.0, 0.0], "push_interval_seconds": [1000.0, 1001.0], "metrics": ["survival", "mean_planar_speed_mps", "mean_abs_yaw_speed_radps", "planar_displacement_m"]},
+    "Stress-forward": {"command": [0.3, 0.0, 0.0], "push_interval_seconds": [0.5, 1.0], "recovery_definition": "XY velocity error <= 0.20 m/s for five consecutive control steps before the next push; this operational definition measures recovery but is not a pass threshold", "metrics": ["survival", "mean_xy_velocity_error_mps", "push_count", "recovered_push_fraction", "mean_recovery_seconds"]},
+    "Fall-recovery": {"status": "excluded", "reason": "The walking environment terminates after excessive tilt; autonomous stand-up requires a dedicated StandUp/VelStand policy and protocol."}
+  }
+}

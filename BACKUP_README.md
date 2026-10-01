@@ -1,38 +1,23 @@
-# MicroDuck RL reproduction backup
+# MicroDuck RL research repository
 
-Private research backup created on 2026-09-27.
+This repository tracks the official `pollen-robotics/microduck_rl` source base at commit `cb70b792312d559a4da09064d92009079671815f` together with a curated, simulation-only safety experiment code release.
 
-## Contents
+## Current research release
 
-- Upstream source history from `pollen-robotics/microduck_rl` at commit
-  `cb70b792312d559a4da09064d92009079671815f`.
-- All locally created evaluation, export, plotting, video, audit, and reporting
-  scripts under `reproduction_artifacts/`.
-- Final ONNX policies for seed 42 and seed 123, plus the public official
-  `alpha_walking.onnx` used for comparison.
-- Raw and aggregated evaluation JSON/CSV files, figures, nine matched comparison
-  videos, and the anonymous human-review package.
-- Seed 42 and seed 123 checkpoints at iterations 0, 500, 1000, 2000, 3000, and
-  3999 under `training_runs/`.
-- TensorBoard event files for both 4000-iteration training runs.
+Start at [`research/README.md`](research/README.md).
 
-## Intentionally excluded
+The current tree contains reusable experiment code, frozen protocols, environment metadata, and integrity utilities. Raw episode data, result reports, videos, model binaries, and unpublished research material remain local and are deliberately not published in this branch.
 
-- Python virtual environments, package caches, Warp caches, and generated build
-  caches.
-- Intermediate checkpoints saved every 50 iterations other than the listed
-  milestones. These are redundant for reproduction and would make the backup
-  several hundred megabytes larger.
+## Excluded from the current branch
 
-## Primary entry points
+- the retired `Walker2d-v5` project;
+- model checkpoints, ONNX binaries, TensorBoard events, and videos;
+- caches, progress files, previews, smoke tests, and withdrawn threshold trials;
+- superseded random-command Stress results and OrderTrap v1 development outputs.
+- raw evaluation data and unpublished research reports.
 
-- `reproduction_artifacts/RUN_SUMMARY.md`
-- `reproduction_artifacts/TECHNICAL_REVIEW.md`
-- `reproduction_artifacts/OFFICIAL_COMPARISON_REPORT.md` (inside
-  `official_comparison/`)
-- `reproduction_artifacts/ADDITIONAL_VALIDATION_REPORT.md`
-- `reproduction_artifacts/FINAL_INTEGRITY_AUDIT.json`
-- `reproduction_artifacts/SHA256SUMS_FINAL.txt`
+The original mixed backup remains recoverable at Git tag `legacy-backup-2026-09-27`. Removing it from the current tree does not erase it from repository history. Complete local artifacts remain outside this Git checkout.
 
-The physical robot was not controlled or tested. All reported experiments are
-simulation results unless explicitly stated otherwise.
+## Evidence boundary
+
+All reported experiments are from MuJoCo/MjLab simulation. No physical robot was controlled, and no real-world exploitability claim is made.
