@@ -10,6 +10,12 @@ This directory is the public-code subset of the local MicroDuck reproduction and
 - adaptive-defense pilot analysis;
 - temporal-order (OrderTrap) Gate-1 evaluation;
 - matched video recording and command-sensitivity diagnostics.
+- independent-seed confirmation and sensor pulse decomposition;
+- full-width supervised actor order/common-clean-tail controls (not native PPO);
+- checkpoint provenance, normalization, cloning and simulation signal checks.
+
+See [SYNC_SCOPE.md](SYNC_SCOPE.md) for the synchronized subset, dependency requirements,
+and the distinction between the local artifact backup and this public code release.
 
 All work is simulation-only. No physical robot is controlled and no real-world exploitability claim is made.
 
