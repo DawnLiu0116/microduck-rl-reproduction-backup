@@ -1,0 +1,8 @@
+# The project-level data/ ignore applies to nested folders too.
+# This snapshot intentionally tracks the report's small JSON evidence and charts.
+!reports_bundle/data/
+!reports_bundle/data/**
+!reports_bundle/src/
+!reports_bundle/src/**
+# The full 70 MiB scalar dump is preserved byte-for-byte in release ZIPs.
+reports_bundle/data/training_scalars.json

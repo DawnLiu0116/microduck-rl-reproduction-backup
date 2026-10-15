@@ -1,0 +1,175 @@
+{
+  "checked_at": "2026-10-15 21:11:16",
+  "mode": "CPU existing-data analysis only",
+  "work_audits": [
+    {
+      "work": 3,
+      "cases": 48,
+      "episodes": 6144,
+      "raw_cases_recomputed": 48,
+      "raw_sha_checked": 0,
+      "max_absolute_mean_residual": {
+        "vx": 1.2456439435482025e-08,
+        "xy": 1.1757947504520416e-08
+      }
+    },
+    {
+      "work": 4,
+      "cases": 72,
+      "episodes": 9216,
+      "raw_cases_recomputed": 72,
+      "raw_sha_checked": 72,
+      "max_absolute_mean_residual": {
+        "seconds": 1.8924474716186523e-06,
+        "xy": 2.828892320394516e-08,
+        "yaw": 4.44706529378891e-08,
+        "action": 6.193295121192932e-08
+      }
+    },
+    {
+      "work": 5,
+      "cases": 2072,
+      "episodes": 171328,
+      "raw_cases_recomputed": 2072,
+      "raw_sha_checked": 2072,
+      "max_absolute_mean_residual": {
+        "seconds": 2.7939677238464355e-06,
+        "vx": 3.725290298461914e-08,
+        "xy": 3.818422555923462e-08,
+        "yaw": 1.5925616025924683e-07,
+        "action": 7.101334631443024e-08
+      }
+    },
+    {
+      "work": 6,
+      "cases": 32,
+      "episodes": 4096,
+      "raw_cases_recomputed": 32,
+      "raw_sha_checked": 32,
+      "max_absolute_mean_residual": {
+        "seconds": 1.3615936040878296e-06,
+        "vx": 1.57160684466362e-08,
+        "xy": 2.561137080192566e-08,
+        "yaw": 6.274785846471786e-08,
+        "action": 7.241033017635345e-08
+      }
+    },
+    {
+      "work": 8,
+      "cases": 40,
+      "episodes": 2560,
+      "raw_cases_recomputed": 40,
+      "raw_sha_checked": 40,
+      "max_absolute_mean_residual": {
+        "seconds": 1.043081283569336e-06,
+        "xy": 1.3737007975578308e-08,
+        "yaw": 2.9802322387695312e-08,
+        "action": 3.213062882423401e-08,
+        "mean_return": 1.1861324310302734e-05,
+        "mean_action_delta_l2": 3.213062882423401e-08,
+        "action_jump_rate_gt_1": 4.773028194904327e-09,
+        "mean_max_action_abs": 2.60770320892334e-07,
+        "mean_max_tilt_deg": 6.139278411865234e-06,
+        "mean_sensor_perturbation_l2": 9.685754776000977e-08,
+        "mean_max_sensor_perturbation_l2": 4.470348358154297e-08
+      }
+    },
+    {
+      "work": 9,
+      "cases": 40,
+      "episodes": 2560,
+      "raw_cases_recomputed": 40,
+      "raw_sha_checked": 0,
+      "max_absolute_mean_residual": {
+        "seconds": 0.0,
+        "vx": 0.0
+      }
+    },
+    {
+      "work": 10,
+      "cases": 60,
+      "episodes": 3840,
+      "raw_cases_recomputed": 60,
+      "raw_sha_checked": 0,
+      "max_absolute_mean_residual": {
+        "seconds": 0.0,
+        "vx": 0.0
+      }
+    },
+    {
+      "work": 11,
+      "cases": 8,
+      "episodes": 512,
+      "raw_cases_recomputed": 8,
+      "raw_sha_checked": 0,
+      "max_absolute_mean_residual": {
+        "seconds": 1.7763568394002505e-15,
+        "vx": 0.0
+      }
+    },
+    {
+      "work": 12,
+      "cases": 12,
+      "episodes": 192,
+      "raw_csv_audit": "embedded episode records; original signal tensor checks inherited"
+    },
+    {
+      "work": 13,
+      "cases": 8,
+      "episodes": 512,
+      "raw_cases_recomputed": 8,
+      "raw_sha_checked": 0,
+      "max_absolute_mean_residual": {
+        "seconds": 0.0,
+        "vx": 0.0,
+        "yaw": 0.0
+      }
+    },
+    {
+      "work": 14,
+      "cases": 336,
+      "episodes": 43008,
+      "raw_cases_recomputed": 336,
+      "raw_sha_checked": 336,
+      "max_absolute_mean_residual": {
+        "seconds": 1.642853021621704e-06,
+        "vx": 3.1082890927791595e-08,
+        "xy": 3.364402800798416e-08,
+        "yaw": 2.682209014892578e-07,
+        "action": 2.9336661100387573e-07
+      }
+    },
+    {
+      "work": 15,
+      "cases": 528,
+      "episodes": 67584,
+      "raw_cases_recomputed": 528,
+      "raw_sha_checked": 528,
+      "max_absolute_mean_residual": {
+        "seconds": 1.7918646335601807e-06,
+        "vx": 1.9907020032405853e-08,
+        "xy": 3.073364496231079e-08,
+        "yaw": 9.918585419654846e-08,
+        "action": 7.380731403827667e-08
+      }
+    },
+    {
+      "work": 16,
+      "cases": 900,
+      "episodes": 115200,
+      "raw_cases_recomputed": 900,
+      "raw_sha_checked": 900,
+      "max_absolute_mean_residual": {
+        "seconds": 1.9259750843048096e-06,
+        "vx": 1.7404090613126755e-08,
+        "xy": 3.748573362827301e-08,
+        "yaw": 8.498318493366241e-08,
+        "action": 6.565824151039124e-08
+      }
+    }
+  ],
+  "issues": [],
+  "new_experiments": 0,
+  "new_training": 0,
+  "scope_note": "Raw CSV primary means/counts checked. N/T/Dose complete tensor/model audits inherited from prior recorded audit; no new model loads."
+}

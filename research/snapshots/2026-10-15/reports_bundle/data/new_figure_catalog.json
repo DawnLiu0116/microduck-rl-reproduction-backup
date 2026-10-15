@@ -1,0 +1,611 @@
+[
+  {
+    "work": 1,
+    "file": "figures/01_train_Curriculum_1.png",
+    "title": "三个来源的训练日志 Curriculum",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Curriculum_2.png",
+    "title": "三个来源的训练日志 Curriculum",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Metrics_1.png",
+    "title": "三个来源的训练日志 Episode_Metrics",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Reward_1.png",
+    "title": "三个来源的训练日志 Episode_Reward",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Reward_2.png",
+    "title": "三个来源的训练日志 Episode_Reward",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Reward_3.png",
+    "title": "三个来源的训练日志 Episode_Reward",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Termination_1.png",
+    "title": "三个来源的训练日志 Episode_Termination",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Loss_1.png",
+    "title": "三个来源的训练日志 Loss",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Metrics_1.png",
+    "title": "三个来源的训练日志 Metrics",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Perf_1.png",
+    "title": "三个来源的训练日志 Perf",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Policy_1.png",
+    "title": "三个来源的训练日志 Policy",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Train_1.png",
+    "title": "三个来源的回报与回合长度 迭代轴与时间轴",
+    "note": "左列横轴为PPO迭代标签，右列为各运行日志elapsed秒，恢复段时钟单独保留，不能看作同一连续墙钟。2026父阶段按3250保存点对应wall_time截断，再与恢复段区分展示，不把/time的秒数误当迭代编号。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 2,
+    "file": "figures/02_checkpoint_counts.png",
+    "title": "244份checkpoint历史统计量与迭代对应",
+    "note": "点为真实保存点，不是新增训练。actor与critic曲线重合；2026恢复边界实际多一轮，应结合报告中的rollout账本。统计一致性不证明历史从未遭受任何攻击。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 3,
+    "file": "figures/03_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 4,
+    "file": "figures/04_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_calibration.png",
+    "title": "全部任务点 calibration",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_coarse.png",
+    "title": "全部任务点 coarse",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_combinations.png",
+    "title": "全部任务点 combinations",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_commands.png",
+    "title": "全部任务点 commands",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_confirmation.png",
+    "title": "全部任务点 confirmation",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_delay_freeze_exploration.png",
+    "title": "全部任务点 delay_freeze_exploration",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_local.png",
+    "title": "全部任务点 local",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_smoke.png",
+    "title": "全部任务点 smoke",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_time.png",
+    "title": "全部任务点 time",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 6,
+    "file": "figures/06_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 9,
+    "file": "figures/09_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 10,
+    "file": "figures/10_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 12,
+    "file": "figures/12_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 13,
+    "file": "figures/13_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 3,
+    "file": "figures/03_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 4,
+    "file": "figures/04_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 6,
+    "file": "figures/06_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 6,
+    "file": "figures/06_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 9,
+    "file": "figures/09_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 10,
+    "file": "figures/10_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 13,
+    "file": "figures/13_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_survival_3.png",
+    "title": "首回合存续曲线 第3组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_survival_3.png",
+    "title": "首回合存续曲线 第3组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_3.png",
+    "title": "首回合存续曲线 第3组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_4.png",
+    "title": "首回合存续曲线 第4组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_5.png",
+    "title": "首回合存续曲线 第5组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_6.png",
+    "title": "首回合存续曲线 第6组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_7.png",
+    "title": "首回合存续曲线 第7组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_8.png",
+    "title": "首回合存续曲线 第8组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_9.png",
+    "title": "首回合存续曲线 第9组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_10.png",
+    "title": "首回合存续曲线 第10组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_11.png",
+    "title": "首回合存续曲线 第11组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_12.png",
+    "title": "首回合存续曲线 第12组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_13.png",
+    "title": "首回合存续曲线 第13组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_14.png",
+    "title": "首回合存续曲线 第14组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 9,
+    "file": "figures/09_supervised_loss.png",
+    "title": "监督更新过程的原始小批次loss",
+    "note": "每条线为真实记录的监督更新，不是PPO回报。排序会改变每批样本难度，loss不可直接当全数据收敛或闭环安全。无更新分支没有loss，不补零。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 10,
+    "file": "figures/10_supervised_loss.png",
+    "title": "监督更新过程的原始小批次loss",
+    "note": "每条线为真实记录的监督更新，不是PPO回报。排序会改变每批样本难度，loss不可直接当全数据收敛或闭环安全。无更新分支没有loss，不补零。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_all_paired_recovery.png",
+    "title": "T全部16格的故障差异与clean尾段恢复",
+    "note": "与同来源、同训练seed、同F/U的T0比较。竖线是三个评估seed差值范围，不是95%置信区间。仅150和200两个实测终点，连线不代表中间连续测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_survival.png",
+    "title": "全部条件的同w配对曲线 survival",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_seconds.png",
+    "title": "全部条件的同w配对曲线 seconds",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_vx_error.png",
+    "title": "全部条件的同w配对曲线 vx_error",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_action_delta.png",
+    "title": "全部条件的同w配对曲线 action_delta",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_normalization_1.png",
+    "title": "离线机制的全部条件与测量时点 normalization 第1组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_normalization_2.png",
+    "title": "离线机制的全部条件与测量时点 normalization 第2组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_normalization_3.png",
+    "title": "离线机制的全部条件与测量时点 normalization 第3组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_replay_1.png",
+    "title": "离线机制的全部条件与测量时点 replay 第1组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_mean_reward_per_step.png",
+    "title": "T24分支逐轮训练 Mean reward per environment step",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_done_count.png",
+    "title": "T24分支逐轮训练 Terminated environments per rollout",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_actor_count.png",
+    "title": "T24分支逐轮训练 Actor normalizer historical count",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_critic_count.png",
+    "title": "T24分支逐轮训练 Critic normalizer historical count",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_modified_consumed.png",
+    "title": "T24分支逐轮训练 Modified actor inputs per rollout",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_collect_seconds.png",
+    "title": "T24分支逐轮训练 Collection wall time (s)",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_value.png",
+    "title": "T24分支逐轮训练 Value loss",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_surrogate.png",
+    "title": "T24分支逐轮训练 Surrogate loss",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_entropy.png",
+    "title": "T24分支逐轮训练 Entropy loss",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 13,
+    "file": "figures/13_clone_repeat_ecdf.png",
+    "title": "原克隆与原原重复的误差差值分布",
+    "note": "横轴为相同环境编号的逐回合vx误差绝对差，纵轴为经验累积分布。两组差异相近不构成统计等价证明；闭环严格逐位门槛仍为失败。原/原重复128回合也计入本工作640总量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_mechanism_all_conditions.png",
+    "title": "脉冲机制十条件完整对照",
+    "note": "十个真实条件分别展示，每柱两评估seed合计128首回合。条件是类别，不连成剂量曲线；输入能量和早停暴露不同，不作单一因果解释。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_basic_bc_endpoints.png",
+    "title": "小BC全部学生的clean尾段前后",
+    "note": "只在两端有测量，中间连线不表示完整学习曲线。学生初始化seed不是PPO来源seed。保留未过门槛的结果，不把MSE换算成跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_survival_2.png",
+    "title": "逐故障首回合存续曲线 第2组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  }
+]

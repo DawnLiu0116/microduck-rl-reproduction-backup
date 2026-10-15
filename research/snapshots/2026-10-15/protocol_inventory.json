@@ -1,0 +1,127 @@
+[
+  {
+    "file": "PROTOCOL_BASELINE_SUMMARY_2026-10-15.md",
+    "sha256": "13a031dc0200be941fc1c17c0e28453068aea8d84712e798cb2f756fa8c5f44f",
+    "bytes": 5994
+  },
+  {
+    "file": "curriculumtrap_pilot/MATRIX_PROTOCOL.md",
+    "sha256": "227ae77a428353744ec193258fcd573f9dc2c50b1a32d6cbc972cb4cbc7ca4b3",
+    "bytes": 1666
+  },
+  {
+    "file": "curriculumtrap_pilot/PROTOCOL.md",
+    "sha256": "41f67e088dfb7f5083a3760df4edb89d839c0ed2b1a2a13b8f943fc5e9cfc25d",
+    "bytes": 1984
+  },
+  {
+    "file": "effective_dose_response/PROTOCOL.md",
+    "sha256": "803ca9c76cc0999ba2a3ccb287125482c2b80b3c9d73a1e0fdc8e468263afdf5",
+    "bytes": 3225
+  },
+  {
+    "file": "effective_dose_response/channel_supplement/PROTOCOL.md",
+    "sha256": "5807ee93f57901e29a34c313980204ba70a8e6ea2d4eee54bb7ce5caed969c58",
+    "bytes": 2434
+  },
+  {
+    "file": "fine_response/PROTOCOL.md",
+    "sha256": "85ed17a4e3ec44963d3500c22a0cf207b1e8a7d99a7fc0541499603a34c819a3",
+    "bytes": 5271
+  },
+  {
+    "file": "mechanism_audit/COMMON_CLEAN_RECOVERY_PROTOCOL.md",
+    "sha256": "32dc34f11394126161d2aed344394d0e2aff8fe12c807eb268567d37a8a158ab",
+    "bytes": 2581
+  },
+  {
+    "file": "mechanism_audit/CONFIRMATION_PROTOCOL.md",
+    "sha256": "e6ede95858ea2034714e0d8f9fd32bf205506ce4c097cfdb300e751b6cf0ae49",
+    "bytes": 3754
+  },
+  {
+    "file": "mechanism_audit/FALL_FILTER_PROTOCOL.md",
+    "sha256": "8d014cf99bf157e43f8ef1584ac4370274a9e144f2e00eed32b89a14b769dc10",
+    "bytes": 1823
+  },
+  {
+    "file": "mechanism_audit/FULL_WIDTH_ORDER_PROTOCOL.md",
+    "sha256": "47106a8ff6e0b55c8361578f85b5ea0c2edd99868160ee0489c14886b9b0cf36",
+    "bytes": 3010
+  },
+  {
+    "file": "mechanism_audit/NORMALIZATION_PILOT_PROTOCOL.md",
+    "sha256": "773795070d24a6c0e33f7e612a689b58c4b71a1359d2fa44f6312cf75d9437d8",
+    "bytes": 3174
+  },
+  {
+    "file": "mechanism_audit/NORMALIZER_RESUME_PROTOCOL.md",
+    "sha256": "2ee4ab2fa10f71ff1ecf47ebc4c805f6e056b4657373e7c0e5de78c91e12c7a6",
+    "bytes": 1665
+  },
+  {
+    "file": "mechanism_audit/PPO_CLONE_PROTOCOL.md",
+    "sha256": "1a57d13fec5e38a224c8e1b46f55a8935a577abc040a7acd63953168df48b7b4",
+    "bytes": 1935
+  },
+  {
+    "file": "mechanism_audit/REPLAY_PROTOCOL.md",
+    "sha256": "ac181a8e1eb1eeeab906c874fcd5c2c92bfc704fb8de27fa3692091e01b0d5e0",
+    "bytes": 3075
+  },
+  {
+    "file": "mechanism_audit/SIM_FALL_FILTER_PROTOCOL.md",
+    "sha256": "61d641edbfaffc5642f3a77e59304dba64354803ee33f95fa3260351b9975503",
+    "bytes": 1693
+  },
+  {
+    "file": "normalization_cpu_curve/CPU_CLOSED_LOOP_PROTOCOL.md",
+    "sha256": "bc0905785fb19b9cc7fc9a38ffc3da2a7902385b2e54a47c9a1a44272870c46c",
+    "bytes": 2126
+  },
+  {
+    "file": "normalization_cpu_curve/PROTOCOL.md",
+    "sha256": "654d0ef6fd0e873a3df81ca22e402cd344e3e908db816134307124d219213f01",
+    "bytes": 2570
+  },
+  {
+    "file": "preprocessing_integrity_v2/T_EXECUTION_PROTOCOL.md",
+    "sha256": "f44cc6baa570aa2f90884e059537e9f78972d4a9d33c9a99198d816a6aba7273",
+    "bytes": 4104
+  },
+  {
+    "file": "priority_delay_audit/DIAGNOSTIC_PROTOCOL.md",
+    "sha256": "3caac7f16f5b75132e74c1dbb6cf0192184cf75dfaab550f702093403cbf16a9",
+    "bytes": 2698
+  },
+  {
+    "file": "sensor_fault_benchmark/CONFIRMATORY_PROTOCOL.md",
+    "sha256": "5de087f2d31c26db98f44554b1c83f3ca9f40af8d1664aa31ebca23826dc2a41",
+    "bytes": 1472
+  },
+  {
+    "file": "sensor_fault_benchmark/INDEPENDENT_CONFIRMATION_PROTOCOL.md",
+    "sha256": "d3a6fb6790a9d6112542610b120c32e83472936f6f04e1216ca4558829776095",
+    "bytes": 3784
+  },
+  {
+    "file": "sensor_fault_benchmark/PROTOCOL.md",
+    "sha256": "14a808b1ad82b578b3c97ff2166f502bfe81e33084ebcd5d8fe2f1896eeb2bf1",
+    "bytes": 1573
+  },
+  {
+    "file": "sensor_fault_benchmark/PULSE_MECHANISM_PROTOCOL.md",
+    "sha256": "dd3b5ae475bbd1ee86db4836fb93a2ef15b128f69fe669e206d86879430e1f74",
+    "bytes": 2497
+  },
+  {
+    "file": "task_protocol_v2/PROTOCOL.md",
+    "sha256": "26b4d620a1b526f78d9fbd1f8c16c1f06c2f4e66dc1dc7cfd767e298b38b0668",
+    "bytes": 1323
+  },
+  {
+    "file": "unified_evaluation/UNIFIED_EVAL_PROTOCOL.md",
+    "sha256": "29dd344862d231c835af4547ef505056c29dda83f81634897a3c5f390f92c2e8",
+    "bytes": 2129
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\official_alpha_walking_clean_seed91201_v2_20s.mp4",
+    "sha256": "e3dde37c573a30fc512bc77fed77d9feb3223c01dbf558606a4ea30978e90294",
+    "expected": "e3dde37c573a30fc512bc77fed77d9feb3223c01dbf558606a4ea30978e90294",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\official_alpha_walking_all_alpha_0.700000_seed91201_v2_20s.mp4",
+    "sha256": "4b71a3d60cff8800b2c3843507d3a3efd3507f495f80f55173a1d071961aecc0",
+    "expected": "4b71a3d60cff8800b2c3843507d3a3efd3507f495f80f55173a1d071961aecc0",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\official_alpha_walking_all_alpha_0.800000_seed91201_v2_20s.mp4",
+    "sha256": "02a855d2a2bbd379410b3b97cce69d47abd3209c014c64b174823ab3fdecc959",
+    "expected": "02a855d2a2bbd379410b3b97cce69d47abd3209c014c64b174823ab3fdecc959",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed42_iter3999_clean_seed91201_v2_20s.mp4",
+    "sha256": "9e4ca2d0a6e545db631c365f95725da9aeea0ebb58a919e5e46dca253a8e95d4",
+    "expected": "9e4ca2d0a6e545db631c365f95725da9aeea0ebb58a919e5e46dca253a8e95d4",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed42_iter3999_all_alpha_0.700000_seed91201_v2_20s.mp4",
+    "sha256": "bdbcd980665418cf00adcbea92dc8dc11755cf1a60aedb3d84abd99b1a619a70",
+    "expected": "bdbcd980665418cf00adcbea92dc8dc11755cf1a60aedb3d84abd99b1a619a70",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed42_iter3999_all_alpha_0.800000_seed91201_v2_20s.mp4",
+    "sha256": "da744114fd305901d7151c028087b8e954c1c6aa4d18c7a910ba1a9eaa930b37",
+    "expected": "da744114fd305901d7151c028087b8e954c1c6aa4d18c7a910ba1a9eaa930b37",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed123_iter3999_clean_seed91201_v2_20s.mp4",
+    "sha256": "504cab0b4dd03291bba3f5084a70551bac8bfea832088056d47ba10ce27bce79",
+    "expected": "504cab0b4dd03291bba3f5084a70551bac8bfea832088056d47ba10ce27bce79",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed123_iter3999_all_alpha_0.700000_seed91201_v2_20s.mp4",
+    "sha256": "edec8736e50726bd25d85345bf150de4a8b51e9c72c84b1335e9289348f65175",
+    "expected": "edec8736e50726bd25d85345bf150de4a8b51e9c72c84b1335e9289348f65175",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed123_iter3999_all_alpha_0.800000_seed91201_v2_20s.mp4",
+    "sha256": "acdc7015585a2c31942054f6d60525a080a5338a819c0cd7d7885057df79db22",
+    "expected": "acdc7015585a2c31942054f6d60525a080a5338a819c0cd7d7885057df79db22",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed2026_iter3999_clean_seed91201_v2_20s.mp4",
+    "sha256": "054e468c2745c0de1141c977acb8509702a13a312eb0195662bdfc6789efbda6",
+    "expected": "054e468c2745c0de1141c977acb8509702a13a312eb0195662bdfc6789efbda6",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed2026_iter3999_all_alpha_0.700000_seed91201_v2_20s.mp4",
+    "sha256": "697d8ee533734d45bfbbe2d669b91b888facd4b7284b54fcb39f6329edd6bfe5",
+    "expected": "697d8ee533734d45bfbbe2d669b91b888facd4b7284b54fcb39f6329edd6bfe5",
+    "match": true
+  },
+  {
+    "path": "D:\\MicroDuckResearch\\ti\\outputs\\microduck_reproduction\\fine_response\\results\\videos\\seed2026_iter3999_all_alpha_0.800000_seed91201_v2_20s.mp4",
+    "sha256": "522d014854bf8c611822fe4a4be7a3274ec8b236d4d4245925767065738f719d",
+    "expected": "522d014854bf8c611822fe4a4be7a3274ec8b236d4d4245925767065738f719d",
+    "match": true
+  }
+]

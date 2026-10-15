@@ -1,0 +1,1556 @@
+[
+  {
+    "work": 1,
+    "file": "figures/01_train_Curriculum_1.png",
+    "title": "三个来源的训练日志 Curriculum",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Curriculum_2.png",
+    "title": "三个来源的训练日志 Curriculum",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Metrics_1.png",
+    "title": "三个来源的训练日志 Episode_Metrics",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Reward_1.png",
+    "title": "三个来源的训练日志 Episode_Reward",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Reward_2.png",
+    "title": "三个来源的训练日志 Episode_Reward",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Reward_3.png",
+    "title": "三个来源的训练日志 Episode_Reward",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Episode_Termination_1.png",
+    "title": "三个来源的训练日志 Episode_Termination",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Loss_1.png",
+    "title": "三个来源的训练日志 Loss",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Metrics_1.png",
+    "title": "三个来源的训练日志 Metrics",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Perf_1.png",
+    "title": "三个来源的训练日志 Perf",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Policy_1.png",
+    "title": "三个来源的训练日志 Policy",
+    "note": "横轴为原日志迭代编号，未平滑。2026实线为保留的parent至3250，虚线为恢复段3250至3999；重复编号不合并为同一训练轮，丢弃parent的3251至3272。训练聚合量不是闭环评估百分比。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "figures/01_train_Train_1.png",
+    "title": "三个来源的回报与回合长度 迭代轴与时间轴",
+    "note": "左列横轴为PPO迭代标签，右列为各运行日志elapsed秒，恢复段时钟单独保留，不能看作同一连续墙钟。2026父阶段按3250保存点对应wall_time截断，再与恢复段区分展示，不把/time的秒数误当迭代编号。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 2,
+    "file": "figures/02_checkpoint_counts.png",
+    "title": "244份checkpoint历史统计量与迭代对应",
+    "note": "点为真实保存点，不是新增训练。actor与critic曲线重合；2026恢复边界实际多一轮，应结合报告中的rollout账本。统计一致性不证明历史从未遭受任何攻击。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 3,
+    "file": "figures/03_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 4,
+    "file": "figures/04_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_calibration.png",
+    "title": "全部任务点 calibration",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_coarse.png",
+    "title": "全部任务点 coarse",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_combinations.png",
+    "title": "全部任务点 combinations",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_commands.png",
+    "title": "全部任务点 commands",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_confirmation.png",
+    "title": "全部任务点 confirmation",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_delay_freeze_exploration.png",
+    "title": "全部任务点 delay_freeze_exploration",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_local.png",
+    "title": "全部任务点 local",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_smoke.png",
+    "title": "全部任务点 smoke",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 5,
+    "file": "figures/05_all_cases_time.png",
+    "title": "全部任务点 time",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 6,
+    "file": "figures/06_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 9,
+    "file": "figures/09_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 10,
+    "file": "figures/10_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 12,
+    "file": "figures/12_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 13,
+    "file": "figures/13_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_all_cases_all.png",
+    "title": "全部任务点 all",
+    "note": "每个点是一项真实任务；横轴仅是文件记录顺序，不是连续变量，故不连线。点保留评估seed差异。条件、模型和分母可在全数据浏览器按编号查询；早停时误差只覆盖终止前。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 3,
+    "file": "figures/03_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 4,
+    "file": "figures/04_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 6,
+    "file": "figures/06_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 6,
+    "file": "figures/06_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 9,
+    "file": "figures/09_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 10,
+    "file": "figures/10_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 13,
+    "file": "figures/13_survival_1.png",
+    "title": "逐故障首回合存续曲线 第1组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 14,
+    "file": "figures/14_survival_3.png",
+    "title": "首回合存续曲线 第3组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_survival_3.png",
+    "title": "首回合存续曲线 第3组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_1.png",
+    "title": "首回合存续曲线 第1组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_2.png",
+    "title": "首回合存续曲线 第2组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_3.png",
+    "title": "首回合存续曲线 第3组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_4.png",
+    "title": "首回合存续曲线 第4组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_5.png",
+    "title": "首回合存续曲线 第5组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_6.png",
+    "title": "首回合存续曲线 第6组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_7.png",
+    "title": "首回合存续曲线 第7组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_8.png",
+    "title": "首回合存续曲线 第8组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_9.png",
+    "title": "首回合存续曲线 第9组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_10.png",
+    "title": "首回合存续曲线 第10组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_11.png",
+    "title": "首回合存续曲线 第11组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_12.png",
+    "title": "首回合存续曲线 第12组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_13.png",
+    "title": "首回合存续曲线 第13组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_survival_14.png",
+    "title": "首回合存续曲线 第14组",
+    "note": "横轴为首回合仿真秒，纵轴为尚未因任何原因终止的比例；20秒超时保留在终点，不画成死亡。由已保存终止时间重算，在0.1秒网格显示；不是完整姿态轨迹，也不把跨评估seed回合当独立训练。相同曲线可能重合。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 9,
+    "file": "figures/09_supervised_loss.png",
+    "title": "监督更新过程的原始小批次loss",
+    "note": "每条线为真实记录的监督更新，不是PPO回报。排序会改变每批样本难度，loss不可直接当全数据收敛或闭环安全。无更新分支没有loss，不补零。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 10,
+    "file": "figures/10_supervised_loss.png",
+    "title": "监督更新过程的原始小批次loss",
+    "note": "每条线为真实记录的监督更新，不是PPO回报。排序会改变每批样本难度，loss不可直接当全数据收敛或闭环安全。无更新分支没有loss，不补零。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_all_paired_recovery.png",
+    "title": "T全部16格的故障差异与clean尾段恢复",
+    "note": "与同来源、同训练seed、同F/U的T0比较。竖线是三个评估seed差值范围，不是95%置信区间。仅150和200两个实测终点，连线不代表中间连续测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_survival.png",
+    "title": "全部条件的同w配对曲线 survival",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_seconds.png",
+    "title": "全部条件的同w配对曲线 seconds",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_vx_error.png",
+    "title": "全部条件的同w配对曲线 vx_error",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 16,
+    "file": "figures/16_paired_full_action_delta.png",
+    "title": "全部条件的同w配对曲线 action_delta",
+    "note": "每格先在同w、同评估seed下减p=0 clean，再汇总三个seed。横轴w为人工矩合并权重，不是PPO步数或实际采样量；p为新部分污染比例。点间连线仅辅助读图，不外推边界；所有正负结果都保留。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_normalization_1.png",
+    "title": "离线机制的全部条件与测量时点 normalization 第1组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_normalization_2.png",
+    "title": "离线机制的全部条件与测量时点 normalization 第2组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_normalization_3.png",
+    "title": "离线机制的全部条件与测量时点 normalization 第3组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_offline_replay_1.png",
+    "title": "离线机制的全部条件与测量时点 replay 第1组",
+    "note": "纵轴为学生拟合teacher动作的MSE，越低只表示离线拟合更接近。按标题所列设计单元对学生/采集重复取均值，未把它们称独立PPO模型。实测离散时点间连线，不代表中间均有测量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_mean_reward_per_step.png",
+    "title": "T24分支逐轮训练 Mean reward per environment step",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_done_count.png",
+    "title": "T24分支逐轮训练 Terminated environments per rollout",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_actor_count.png",
+    "title": "T24分支逐轮训练 Actor normalizer historical count",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_critic_count.png",
+    "title": "T24分支逐轮训练 Critic normalizer historical count",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_modified_consumed.png",
+    "title": "T24分支逐轮训练 Modified actor inputs per rollout",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_collect_seconds.png",
+    "title": "T24分支逐轮训练 Collection wall time (s)",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_value.png",
+    "title": "T24分支逐轮训练 Value loss",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_surrogate.png",
+    "title": "T24分支逐轮训练 Surrogate loss",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 15,
+    "file": "figures/15_train_entropy.png",
+    "title": "T24分支逐轮训练 Entropy loss",
+    "note": "原正式results的200个rollout指标，六线为T0/TC/TI×F/U，灰区为第51—150轮干预期。没有合并TensorBoard中被恢复覆盖的旧尝试；NaN终止另在原数据中保留。训练done_count不是固定评估跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 13,
+    "file": "figures/13_clone_repeat_ecdf.png",
+    "title": "原克隆与原原重复的误差差值分布",
+    "note": "横轴为相同环境编号的逐回合vx误差绝对差，纵轴为经验累积分布。两组差异相近不构成统计等价证明；闭环严格逐位门槛仍为失败。原/原重复128回合也计入本工作640总量。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_mechanism_all_conditions.png",
+    "title": "脉冲机制十条件完整对照",
+    "note": "十个真实条件分别展示，每柱两评估seed合计128首回合。条件是类别，不连成剂量曲线；输入能量和早停暴露不同，不作单一因果解释。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 11,
+    "file": "figures/11_basic_bc_endpoints.png",
+    "title": "小BC全部学生的clean尾段前后",
+    "note": "只在两端有测量，中间连线不表示完整学习曲线。学生初始化seed不是PPO来源seed。保留未过门槛的结果，不把MSE换算成跌倒率。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 8,
+    "file": "figures/08_survival_2.png",
+    "title": "逐故障首回合存续曲线 第2组",
+    "note": "每个面板严格保持同一故障条件，未混合clean、启动和行走故障。纵轴为尚未终止的首回合比例，20秒超时保留在终点；0.1秒显示网格。合并的是同模型同条件评估seed，不是独立训练重复。",
+    "kind": "new_existing_data_plot"
+  },
+  {
+    "work": 1,
+    "file": "original_figures/01_46d551921d_checkpoint_evaluation.png",
+    "title": "checkpoint evaluation",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "plots/checkpoint_evaluation.png",
+    "sha256": "46d551921d9016b0fb1845f98693d206a381458fa253c6bdda2e874d18e974e9"
+  },
+  {
+    "work": 1,
+    "file": "original_figures/01_8bc7541d49_command_tracking_errors.png",
+    "title": "command tracking errors",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "plots/command_tracking_errors.png",
+    "sha256": "8bc7541d49cdda651bbc429fd12f3cada1dfb81aac9f843c424bb1b0c79e87ad"
+  },
+  {
+    "work": 1,
+    "file": "original_figures/01_e44d3f5c80_safety_and_policy_metrics.png",
+    "title": "safety and policy metrics",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "plots/safety_and_policy_metrics.png",
+    "sha256": "e44d3f5c8062ad22ae276eec64a5105a6f726b04248b69b50a2592f0f0b7306a"
+  },
+  {
+    "work": 1,
+    "file": "original_figures/01_28a57d0a57_training_reward_episode.png",
+    "title": "training reward episode",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "plots/training_reward_episode.png",
+    "sha256": "28a57d0a570a045839005e2af84a711d0c24af27cd4f4287a6be4001762ea7d2"
+  },
+  {
+    "work": 3,
+    "file": "original_figures/03_51de8b237e_primary_metrics_comparison.png",
+    "title": "primary metrics comparison",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "task_protocol_v2/four_model_final/primary_metrics_comparison.png",
+    "sha256": "51de8b237e55f6a1fdf9b61b7bb1072eefa85a51ca690e039d0de5aca4d30102"
+  },
+  {
+    "work": 3,
+    "file": "original_figures/03_2aac68216f_survival_comparison.png",
+    "title": "survival comparison",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "task_protocol_v2/four_model_final/survival_comparison.png",
+    "sha256": "2aac68216f9eeca655342fa31a826fa4fe46206136b820456b8e4ed65688815c"
+  },
+  {
+    "work": 3,
+    "file": "original_figures/03_b8063b53df_three_model_comparison.png",
+    "title": "three model comparison",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "official_comparison/three_model_comparison.png",
+    "sha256": "b8063b53dfe7818f471c775381cd38f28623d2d08d2bf7fb982b6ea042f8a3fe"
+  },
+  {
+    "work": 3,
+    "file": "original_figures/03_a91553c166_multi_seed_comparison.png",
+    "title": "multi seed comparison",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "unified_evaluation/multi_seed/multi_seed_comparison.png",
+    "sha256": "a91553c1665b8d2b0cfc86b2b162c119fbe1b937ebb1492792b0ffb4b52dd7aa"
+  },
+  {
+    "work": 3,
+    "file": "original_figures/03_d0971d3484_seed42_vs_seed123_unified_evaluation.png",
+    "title": "seed42 vs seed123 unified evaluation",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "unified_evaluation/plots/seed42_vs_seed123_unified_evaluation.png",
+    "sha256": "d0971d3484522129e4e738b079f514ec559f47177eba2a3fb2defe2888d60f22"
+  },
+  {
+    "work": 3,
+    "file": "original_figures/03_d523d627a7_clean_vs_fault.png",
+    "title": "clean vs fault",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/acceptance_separation/clean_vs_fault.png",
+    "sha256": "d523d627a7e88ea98eaf5e257db52ea0962f5c421d99e3b65bb54307a0b99749"
+  },
+  {
+    "work": 3,
+    "file": "original_figures/03_2a46c05ef9_fault_fingerprints.png",
+    "title": "fault fingerprints",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/acceptance_separation/fault_fingerprints.png",
+    "sha256": "2a46c05ef9d9119671b2db14d8d87537d19291cdeba52d714bc6a656976a15d1"
+  },
+  {
+    "work": 4,
+    "file": "original_figures/04_44789b4432_old_new_survival.png",
+    "title": "old new survival",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "sensor_fault_benchmark/independent_confirmation/old_new_survival.png",
+    "sha256": "44789b44327ece2d4d0c686ca39bba3186e7746d5bf1dcebf1c88c00095e5a9f"
+  },
+  {
+    "work": 4,
+    "file": "original_figures/04_3630d33ac6_confirmatory_summary_four_models.png",
+    "title": "confirmatory summary four models",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "sensor_fault_benchmark/four_model_confirmatory/confirmatory_summary_four_models.png",
+    "sha256": "3630d33ac660e6d84791aeccd2898d86752fbef44a66f3e09962972f9b703afe"
+  },
+  {
+    "work": 4,
+    "file": "original_figures/04_f3ae795287_confirmatory_summary.png",
+    "title": "confirmatory summary",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "sensor_fault_benchmark/preview/confirmatory_summary.png",
+    "sha256": "f3ae795287c38cfbf07cac752b3bfa5dcd17de513b1b96c26f13c3e38aeb3485"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_a9d3bb5533_channel_combinations.png",
+    "title": "channel combinations",
+    "note": "横轴是通道组合类别，纵轴为存活/寿命等结果。组合响应不等于各单通道损害之和；同alpha的输入范数不同，不能直接当协同作用的因果证明。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/channel_combinations.png",
+    "sha256": "a9d3bb5533bd141f3df63761dfdbc9277c8e76efb13f692842a3c81cb786f1ec"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_82c03a29f2_coarse_imu_bias_all.png",
+    "title": "coarse imu bias all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注IMU偏置；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/coarse_imu_bias_all.png",
+    "sha256": "82c03a29f23b48ba1484481c1503f643075ce5146543079f3f306908d6a19de4"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_a6d5ec0c26_coarse_noise_all.png",
+    "title": "coarse noise all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注传感段噪声；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/coarse_noise_all.png",
+    "sha256": "a6d5ec0c26fd5f2425d041f9fd52147c074be6bf8dc83e9f02e7c811c8dd0801"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_181132626c_coarse_pulse_all.png",
+    "title": "coarse pulse all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注联合传感段；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/coarse_pulse_all.png",
+    "sha256": "181132626c131527c3dc219954cba337f3cdcb283d1eea5c8b61e953b611abd0"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_df0ea8cbc5_coarse_pulse_gravity_add.png",
+    "title": "coarse pulse gravity add",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注重力投影向量加性偏移；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/coarse_pulse_gravity_add.png",
+    "sha256": "df0ea8cbc53377c29657acb75e04b8278b41aa157ed9d3005b5cdb9d1ff4f8b9"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_198851a3c8_coarse_pulse_gyro.png",
+    "title": "coarse pulse gyro",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注躯干角速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/coarse_pulse_gyro.png",
+    "sha256": "198851a3c8745fbc34722c6af46806ef5b8887ec21b588168122037c2f73811b"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_1dd7046d5b_coarse_pulse_joint_velocity.png",
+    "title": "coarse pulse joint velocity",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注关节速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/coarse_pulse_joint_velocity.png",
+    "sha256": "1dd7046d5b63638148bc935f15d2770156d888e7572f48b8624c27042f43e3c4"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_0c767c078c_confirmation_delay_all.png",
+    "title": "confirmation delay all",
+    "note": "横轴为额外观测延迟步或其对应毫秒，一控制步20ms；原生延迟仍保留，不能把该轴叫硬件端到端总时延。纵轴存活和寿命须同时看。探索与确认是不同seed队列，不合并为新样本。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_delay_all.png",
+    "sha256": "0c767c078c69c50a5c03142ed94a2e9eef3e0f3c253ac2933d830c50d6fef4e5"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_b2a727ffb2_confirmation_freeze_all.png",
+    "title": "confirmation freeze all",
+    "note": "横轴为观测冻结控制步数，一步20ms；名义持续时间与最后一帧实际陈旧年龄差一控制步。冻结越久不保证各模型排名不变；存活不等于任务成功。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_freeze_all.png",
+    "sha256": "b2a727ffb28463577d23017c98d017f5e6972122027d0ce9949a26039b51dd95"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_03b5b9c212_confirmation_imu_bias_all.png",
+    "title": "confirmation imu bias all",
+    "note": "三新评估seed确认。本图关注IMU偏置；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_imu_bias_all.png",
+    "sha256": "03b5b9c21208f42d15d13a6d2cbb2c048214390a52ee8d5430120a1461a62045"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_bebe582ad8_confirmation_noise_all.png",
+    "title": "confirmation noise all",
+    "note": "三新评估seed确认。本图关注传感段噪声；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_noise_all.png",
+    "sha256": "bebe582ad8a530be6ad74c507fa740343f684648070c3c8625cd6ca48c65a6e3"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_c024f29bd7_confirmation_pulse_all.png",
+    "title": "confirmation pulse all",
+    "note": "三新评估seed确认。本图关注联合传感段；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_pulse_all.png",
+    "sha256": "c024f29bd7b410ec4b486fb39623dda6cab705a9c17945aa8e8e4430851aabc3"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_0f263f35bb_confirmation_pulse_gravity_add.png",
+    "title": "confirmation pulse gravity add",
+    "note": "三新评估seed确认。本图关注重力投影向量加性偏移；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_pulse_gravity_add.png",
+    "sha256": "0f263f35bbfcdb88485a3acc25c79f71ee6c5af1d07afb8a01aa6b3e6e2d1285"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_5aee2e74c1_confirmation_pulse_gyro.png",
+    "title": "confirmation pulse gyro",
+    "note": "三新评估seed确认。本图关注躯干角速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_pulse_gyro.png",
+    "sha256": "5aee2e74c1e1700999f44dcc7dcaef3c734d1ff1a7aaf0b90e92b3326e8ca45c"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_ae9a2a86b8_confirmation_pulse_joint_velocity.png",
+    "title": "confirmation pulse joint velocity",
+    "note": "三新评估seed确认。本图关注关节速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/confirmation_pulse_joint_velocity.png",
+    "sha256": "ae9a2a86b8d35ed0a88166d7d329f98a5b5e19a5ff416116073f3719d7a45ff3"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_e47f5368e0_delay_freeze_exploration_delay_all.png",
+    "title": "delay freeze exploration delay all",
+    "note": "横轴为观测冻结控制步数，一步20ms；名义持续时间与最后一帧实际陈旧年龄差一控制步。冻结越久不保证各模型排名不变；存活不等于任务成功。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/delay_freeze_exploration_delay_all.png",
+    "sha256": "e47f5368e0d601587c63f1fabcafa4a28623901096f87de17095ea373421c577"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_97153ae665_delay_freeze_exploration_freeze_all.png",
+    "title": "delay freeze exploration freeze all",
+    "note": "横轴为观测冻结控制步数，一步20ms；名义持续时间与最后一帧实际陈旧年龄差一控制步。冻结越久不保证各模型排名不变；存活不等于任务成功。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/delay_freeze_exploration_freeze_all.png",
+    "sha256": "97153ae6654c08795d5931b60769b3beaf7e278f2221659fdada8ec603cb48d0"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_5b691018ac_local_imu_bias_all.png",
+    "title": "local imu bias all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注IMU偏置；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/local_imu_bias_all.png",
+    "sha256": "5b691018ac7a7129917e9010f57ff3a6a8bb3cadeb8e8dca48c20659a2555392"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_94cf4709af_local_noise_all.png",
+    "title": "local noise all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注传感段噪声；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/local_noise_all.png",
+    "sha256": "94cf4709aff8c501d0f70d77738a7578df8a3147a8ce1d3cce1297f4952b8465"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_cb54ff4332_local_pulse_all.png",
+    "title": "local pulse all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注联合传感段；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/local_pulse_all.png",
+    "sha256": "cb54ff4332902a64739f6c3e433656309219bd6df40b0d319bdf90e91c872849"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_960ced0d5d_local_pulse_gravity_add.png",
+    "title": "local pulse gravity add",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注重力投影向量加性偏移；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/local_pulse_gravity_add.png",
+    "sha256": "960ced0d5db73918ab98686efa59ed26a2da850423238e59e1cf16b78a0aacfa"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_a34b8fcbad_local_pulse_gyro.png",
+    "title": "local pulse gyro",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注躯干角速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/local_pulse_gyro.png",
+    "sha256": "a34b8fcbada13ac57305a87a2a5d08c415855ca8c66a4542c41936f469e0ae8a"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_a4025f1460_local_pulse_joint_velocity.png",
+    "title": "local pulse joint velocity",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注关节速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/local_pulse_joint_velocity.png",
+    "sha256": "a4025f1460d3fd0efbb60203cd3392503c5e1c7d1ac9bf9e271bcfb97a451c67"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_ee8a540307_merged_exploration_delay_all.png",
+    "title": "merged exploration delay all",
+    "note": "横轴为额外观测延迟步或其对应毫秒，一控制步20ms；原生延迟仍保留，不能把该轴叫硬件端到端总时延。纵轴存活和寿命须同时看。探索与确认是不同seed队列，不合并为新样本。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_delay_all.png",
+    "sha256": "ee8a5403074cbd18d2f99c85d24769e9132c0db08a5d9236d92822593583ef91"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_e140f1dd1d_merged_exploration_freeze_all.png",
+    "title": "merged exploration freeze all",
+    "note": "横轴为观测冻结控制步数，一步20ms；名义持续时间与最后一帧实际陈旧年龄差一控制步。冻结越久不保证各模型排名不变；存活不等于任务成功。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_freeze_all.png",
+    "sha256": "e140f1dd1dd7492c947b5e251f90130bccf83c9d57fe99953c65db73c2d8db24"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_b167255452_merged_exploration_imu_bias_all.png",
+    "title": "merged exploration imu bias all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注IMU偏置；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_imu_bias_all.png",
+    "sha256": "b167255452cc4451ef33718efa6d876c5f2abbbee9c44d9717c02e48d649c27a"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_04693b7cb5_merged_exploration_noise_all.png",
+    "title": "merged exploration noise all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注传感段噪声；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_noise_all.png",
+    "sha256": "04693b7cb50ffd8edff2e48c72b0ad45c061e6c6f16772f80c6532477dbc6983"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_1226cad45d_merged_exploration_pulse_all.png",
+    "title": "merged exploration pulse all",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注联合传感段；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_pulse_all.png",
+    "sha256": "1226cad45da74fb6658794470e1a31cdc918cfa15dfe044b6f35b7e8ec864d0f"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_5ddec79bab_merged_exploration_pulse_gravity_add.png",
+    "title": "merged exploration pulse gravity add",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注重力投影向量加性偏移；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_pulse_gravity_add.png",
+    "sha256": "5ddec79bab494a2069c9d90950e04dc08007e3e498b228e9516464cb3d8b6c07"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_f0e92b0076_merged_exploration_pulse_gyro.png",
+    "title": "merged exploration pulse gyro",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注躯干角速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_pulse_gyro.png",
+    "sha256": "f0e92b00760113a3f0522a7eda57bb802a6ab80ea0218eb7139cf5c925512c8b"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_1156d86511_merged_exploration_pulse_joint_velocity.png",
+    "title": "merged exploration pulse joint velocity",
+    "note": "两个探索评估seed的幅度或机制扫描。本图关注关节速度；存活百分比越高只表示越少提前终止，不代表跟踪更准。强度轴只按本故障定义解释，不能把不同通道同alpha视为等输入能量。探索与确认分开读，准确分母和seed见图例及数据浏览器。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/merged_exploration_pulse_joint_velocity.png",
+    "sha256": "1156d865116b1012dd68c317495f246c394f13459f9db24e35827fb609eb9964"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_cd91edd809_nominal_Forward.png",
+    "title": "nominal Forward",
+    "note": "固定命令扫描：Forward观察前向速度误差，Turning观察yaw误差及平移漂移。模型站住不等于跟随命令，目标速度变化时应按相应命令比较。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/nominal_Forward.png",
+    "sha256": "cd91edd80908239571a168bc5080841893089005dcf635572053b35949afe8fb"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_3f5e1944aa_nominal_Turning.png",
+    "title": "nominal Turning",
+    "note": "固定命令扫描：Forward观察前向速度误差，Turning观察yaw误差及平移漂移。模型站住不等于跟随命令，目标速度变化时应按相应命令比较。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/nominal_Turning.png",
+    "sha256": "3f5e1944aa0e37373534245ad93ad63c1d125d39392b43c7a0f94bb27eb98d97"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_83786840a2_timing_cluster.png",
+    "title": "timing cluster",
+    "note": "比较脉冲在时间上的聚集安排。横轴为实际协议中的时间安排参数，不是新增训练轮数；暴露次数和早停的关系应结合原始条件查看。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/timing_cluster.png",
+    "sha256": "83786840a23919cff9a194c5ea6315d26272650028011049157f422c6ef6ac3e"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_0492cf5140_timing_duration.png",
+    "title": "timing duration",
+    "note": "横轴是每次脉冲持续控制步数，一步20ms；纵轴描述首回合结果。改变持续时间也改变计划暴露量，早终止会进一步改变实际暴露，不能当等剂量机制分离。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/timing_duration.png",
+    "sha256": "0492cf514030321465c12eff80c5f2e49277cb939c4a228d6ebfbcb94db155bb"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_be1951243b_timing_single_onset.png",
+    "title": "timing single onset",
+    "note": "横轴为单次注入起点所在控制步；越靠后意味着机器人所处状态和剩余观察窗口不同。仅两个探索seed，不外推精确最危险时刻。",
+    "kind": "retained_original",
+    "source": "fine_response/results/plots/timing_single_onset.png",
+    "sha256": "be1951243b8c53bf0eed6a940af670337f53b85199351f4902b6b7759ab38be3"
+  },
+  {
+    "work": 5,
+    "file": "original_figures/05_7609eb4b67_OLD_VS_NEW_TEMPORAL.png",
+    "title": "OLD VS NEW TEMPORAL",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "fine_response_assessment/OLD_VS_NEW_TEMPORAL.png",
+    "sha256": "7609eb4b6744254b9b5ed959c41ebac48e4c3d2a4d5ca65689f3f6934d661cde"
+  },
+  {
+    "work": 6,
+    "file": "original_figures/06_6cbe07baad_01_pulse_channels.png",
+    "title": "01 pulse channels",
+    "note": "历史中期CPU分析图，快照覆盖有限；最终完整数据与本轮重算另列，不把该快照冒充最终全部条件。",
+    "kind": "retained_original",
+    "source": "cpu_analysis_2026-10-12/plots/01_pulse_channels.png",
+    "sha256": "6cbe07baaddcd507a996267e7a00132bffa0b0ff3cc1e09e4a0b71dfa3130e4b"
+  },
+  {
+    "work": 6,
+    "file": "original_figures/06_f3ed2bca66_02_temporal_response.png",
+    "title": "02 temporal response",
+    "note": "历史中期CPU分析图，快照覆盖有限；最终完整数据与本轮重算另列，不把该快照冒充最终全部条件。",
+    "kind": "retained_original",
+    "source": "cpu_analysis_2026-10-12/plots/02_temporal_response.png",
+    "sha256": "f3ed2bca665226276bbe89b7df3b989cbdd59ce06e1cb313ca27736c91b68117"
+  },
+  {
+    "work": 6,
+    "file": "original_figures/06_6ca2d63033_03_native_delay_ablation.png",
+    "title": "03 native delay ablation",
+    "note": "历史中期CPU分析图，快照覆盖有限；最终完整数据与本轮重算另列，不把该快照冒充最终全部条件。",
+    "kind": "retained_original",
+    "source": "cpu_analysis_2026-10-12/plots/03_native_delay_ablation.png",
+    "sha256": "6ca2d6303349bed69936b05608f0193d5b599dff74cc3a6dd9d6b1ca69891145"
+  },
+  {
+    "work": 6,
+    "file": "original_figures/06_31d61540d4_04_time_to_failure.png",
+    "title": "04 time to failure",
+    "note": "历史中期CPU分析图，快照覆盖有限；最终完整数据与本轮重算另列，不把该快照冒充最终全部条件。",
+    "kind": "retained_original",
+    "source": "cpu_analysis_2026-10-12/plots/04_time_to_failure.png",
+    "sha256": "31d61540d4ebe09fad44626a2b9a39c23b9fc7db724cfbe5cbe12b7de1bd1c21"
+  },
+  {
+    "work": 6,
+    "file": "original_figures/06_7399d702c8_05_noise_continuous_metrics.png",
+    "title": "05 noise continuous metrics",
+    "note": "历史中期CPU分析图，快照覆盖有限；最终完整数据与本轮重算另列，不把该快照冒充最终全部条件。",
+    "kind": "retained_original",
+    "source": "cpu_analysis_2026-10-12/plots/05_noise_continuous_metrics.png",
+    "sha256": "7399d702c8aa7602dd574838f60e98eb360926d6064ae6aae6f159d43fe41470"
+  },
+  {
+    "work": 6,
+    "file": "original_figures/06_5f4ae4d6ed_06_truncation_warning.png",
+    "title": "06 truncation warning",
+    "note": "历史中期CPU分析图，快照覆盖有限；最终完整数据与本轮重算另列，不把该快照冒充最终全部条件。",
+    "kind": "retained_original",
+    "source": "cpu_analysis_2026-10-12/plots/06_truncation_warning.png",
+    "sha256": "5f4ae4d6edd0303ad64b41213f8a26735f16ce2542dc9d8be3c613b9d840bf26"
+  },
+  {
+    "work": 6,
+    "file": "original_figures/06_a9bcabedb2_07_snapshot_coverage.png",
+    "title": "07 snapshot coverage",
+    "note": "历史中期CPU分析图，快照覆盖有限；最终完整数据与本轮重算另列，不把该快照冒充最终全部条件。",
+    "kind": "retained_original",
+    "source": "cpu_analysis_2026-10-12/plots/07_snapshot_coverage.png",
+    "sha256": "a9bcabedb229ef05f9423a1d99ab627e59efc9e6cbdd72709d2fccb7149ac685"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_d255171400_fig1_pulse_confirmation.png",
+    "title": "fig1 pulse confirmation",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_report_2026-10-13/figures/fig1_pulse_confirmation.png",
+    "sha256": "d2551714004bf4510c8a5f675113a32022a63077cc29aa321e18b9fca178b4bd"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_0c8e7a6632_fig2_temporal_confirmation.png",
+    "title": "fig2 temporal confirmation",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_report_2026-10-13/figures/fig2_temporal_confirmation.png",
+    "sha256": "0c8e7a66326470a1edc1a9ee7bc0230c0bd0dffd36b87aa6bdb63e31390c1a76"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_c166dc55c0_fig3_noise_metrics.png",
+    "title": "fig3 noise metrics",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_report_2026-10-13/figures/fig3_noise_metrics.png",
+    "sha256": "c166dc55c05e3aefbb8e257d135d03855cf25e1bd39eed731b0d9d06509451d3"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_efda6282ea_fig4_combinations.png",
+    "title": "fig4 combinations",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_report_2026-10-13/figures/fig4_combinations.png",
+    "sha256": "efda6282ea62f93d4295cfaffe5d00f57ea5ac6cc6a90efbac94d7f2c44b4851"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_6e4c022646_fig5_duration.png",
+    "title": "fig5 duration",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_report_2026-10-13/figures/fig5_duration.png",
+    "sha256": "6e4c022646e1420b2f427f154d118bcdca66b1566bb49147e98f15a365ad0fe2"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_4c88d144dc_fig6_commands.png",
+    "title": "fig6 commands",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_report_2026-10-13/figures/fig6_commands.png",
+    "sha256": "4c88d144dc06db2b20f25b49dffa4f9a6a269a7dbb07f305dcafc4e91e36bb28"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_2c69567e67_fig7_native_delay.png",
+    "title": "fig7 native delay",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_report_2026-10-13/figures/fig7_native_delay.png",
+    "sha256": "2c69567e67d5c1c3965e16b325d765d6200c7edf5cc718d6cdb311b03834637b"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_6e920bf06b_dose_grid.png",
+    "title": "dose grid",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_20261015_v1/figures/dose_grid.png",
+    "sha256": "6e920bf06b4dfb46de433ae25a050f67272ee8cd8e300019ef47e48efd7b2cb4"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_bd53404cff_failure_timing.png",
+    "title": "failure timing",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_20261015_v1/figures/failure_timing.png",
+    "sha256": "bd53404cff5b64c5b3e7a49a951954799f77711ce3ff95e06e5991c36a6b3699"
+  },
+  {
+    "work": 7,
+    "file": "original_figures/07_96c8ab6f32_training_recovery.png",
+    "title": "training recovery",
+    "note": "既有论文选图，同一实验可能也在第5/15/16报告出现；只是不同表达，不增加样本。图中星号/误差条必须按原图解释。",
+    "kind": "retained_original",
+    "source": "paper_20261015_v1/figures/training_recovery.png",
+    "sha256": "96c8ab6f322bfba58267050e53965488568c7877f6cf63f1bf750d7da8befa02"
+  },
+  {
+    "work": 9,
+    "file": "original_figures/09_dfe3f5c295_closed_loop_survival.png",
+    "title": "closed loop survival",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/full_width_order_pilot/closed_loop_survival.png",
+    "sha256": "dfe3f5c2955b5c3f69d76915d0bcba35c8d302d57476afcbfe07512a5c6cfd72"
+  },
+  {
+    "work": 9,
+    "file": "original_figures/09_8768d1934d_offline_mse.png",
+    "title": "offline mse",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/full_width_order_pilot/offline_mse.png",
+    "sha256": "8768d1934db63b6ea2973e3a0bf18af355b85f477a3a82245f14bcdaa6f2c878"
+  },
+  {
+    "work": 10,
+    "file": "original_figures/10_a9e915cc9d_nominal_pre_post.png",
+    "title": "nominal pre post",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/full_width_clean_recovery/nominal_pre_post.png",
+    "sha256": "a9e915cc9d19725f1e1d9ab87e2462ca1f8ca1ee09fdfceff59f022939091c34"
+  },
+  {
+    "work": 10,
+    "file": "original_figures/10_f4cb420563_recovery_tracking.png",
+    "title": "recovery tracking",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/full_width_clean_recovery/recovery_tracking.png",
+    "sha256": "f4cb420563c8a21c23bb923758af17e49b48b63b0e7d3b5849d3f4bb7113e426"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_202581f741_bc_order_effect.png",
+    "title": "bc order effect",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "curriculumtrap_pilot/bc_order_effect.png",
+    "sha256": "202581f7413cfb9ca85a9c46c584da2be7e188580ab9940635dfa40a0371e2c5"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_8b21894b77_canary_combination_heatmap.png",
+    "title": "canary combination heatmap",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "curriculumtrap_pilot/matrix/canary_combination_heatmap.png",
+    "sha256": "8b21894b7707c21c49f6998e6ada2f6ab3dc6f6eaf01aa973d2e38b3efc94bc4"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_7a53eac7cb_order_amplitude_controls.png",
+    "title": "order amplitude controls",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "curriculumtrap_pilot/matrix/order_amplitude_controls.png",
+    "sha256": "7a53eac7cb887325414bddf90c0d740e7cc5e0f38840f5bf6cb69b4be8229b59"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_fbe9321a41_recovery_curves.png",
+    "title": "recovery curves",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "curriculumtrap_pilot/matrix/recovery_curves.png",
+    "sha256": "fbe9321a4187b697a94a4ff5d8f0def90aed758e067fc0a4ef0a78fc4930d39b"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_4036756fd3_absolute_error_comparison.png",
+    "title": "absolute error comparison",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/normalization_pilot/absolute_error_comparison.png",
+    "sha256": "4036756fd307889ef030f816b242c47499c705e58d3a33fb4d4f1aca123e8787"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_556164231c_normalization_specific_contrast.png",
+    "title": "normalization specific contrast",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/normalization_pilot/normalization_specific_contrast.png",
+    "sha256": "556164231c573e1863596e8110ba4dede342ba6a7c35eecdb68cafcb17399c7c"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_2f0d8f68d5_confirmation_absolute_error.png",
+    "title": "confirmation absolute error",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/normalization_confirmation/confirmation_absolute_error.png",
+    "sha256": "2f0d8f68d580ae512005d923651c9fba069f529e386b0afeaa1b1c5dd045346d"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_0346dbfa76_confirmation_trajectories.png",
+    "title": "confirmation trajectories",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/normalization_confirmation/confirmation_trajectories.png",
+    "sha256": "0346dbfa7690a3a85870a4934aae6072a5b24240f9d91b632980216626da6af7"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_6b96ec2d26_replay_tradeoff.png",
+    "title": "replay tradeoff",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/replay_fork_pilot/replay_tradeoff.png",
+    "sha256": "6b96ec2d266629dd41fff9605d3cdd39d0fe389c74ba950d7507824997f44fa9"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_30d7690257_replay_vs_clean_trajectories.png",
+    "title": "replay vs clean trajectories",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/replay_fork_pilot/replay_vs_clean_trajectories.png",
+    "sha256": "30d7690257e5b9cdf3df72625e91f23aea8cf37ddeeff4e40e7c078654755ddc"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_eaf907911d_curves.png",
+    "title": "curves",
+    "note": "历史CPU部分曲线，旧插值队列仍暂停；未完成的格不补零，不混入正式GPU实验。",
+    "kind": "retained_original",
+    "source": "normalization_cpu_curve/curves.png",
+    "sha256": "eaf907911ddc24007898a22916c7009b18f067a0c37fb777cc08e18505e30040"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_1e8ba1edc2_post_update_difference.png",
+    "title": "post update difference",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/normalizer_resume_probe/post_update_difference.png",
+    "sha256": "1e8ba1edc23331c1bd70f34d3af9b6c4deb032b929bc01142912e8533523303c"
+  },
+  {
+    "work": 11,
+    "file": "original_figures/11_2ac99b2c05_ordertrap_gate1_paired_effects.png",
+    "title": "ordertrap gate1 paired effects",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "ordertrap_gate1/ordertrap_gate1_paired_effects.png",
+    "sha256": "2ac99b2c05f68edbbd8253250d8962fa638595bbab0e8fe85ca27f0d9e28da5f"
+  },
+  {
+    "work": 12,
+    "file": "original_figures/12_3e8358911b_m42_s11011_Stress_env2_fall.png",
+    "title": "m42 s11011 Stress env2 fall",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/sim_fall_filter/m42_s11011_Stress_env2_fall.png",
+    "sha256": "3e8358911b7b7a019daefa7b41d8366c1b9b490e77fff98bdd51f42ff7c13cc6"
+  },
+  {
+    "work": 12,
+    "file": "original_figures/12_848b610b64_max_tilt.png",
+    "title": "max tilt",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/sim_fall_filter/max_tilt.png",
+    "sha256": "848b610b6457f83b23e0ec066006bd9fa22866b2e3080dfcfe4d934c18191e42"
+  },
+  {
+    "work": 12,
+    "file": "original_figures/12_f680d3ad75_prediction_comparison.png",
+    "title": "prediction comparison",
+    "note": "较早纯运动学探针，仅作机制背景，不计入本报告192个官方仿真首回合。",
+    "kind": "retained_original",
+    "source": "mechanism_audit/fall_filter_probe/prediction_comparison.png",
+    "sha256": "f680d3ad75065ec308dbf98fa2435c1c847de78b1043e9503e2326b6733ef0a7"
+  },
+  {
+    "work": 12,
+    "file": "original_figures/12_c78be335a7_defense_pilot_v2_survival.png",
+    "title": "defense pilot v2 survival",
+    "note": "历史补充图，保留用于追溯。本图的队列、幅度、分母或目的不同于本报告主表，不合并计数，不当成新增实验或最终主协议结论。",
+    "kind": "retained_original",
+    "source": "adaptive_defense_pilot/defense_pilot_v2_survival.png",
+    "sha256": "c78be335a7c20307aa557b3e7c9bb2cbab8c65bcf3a2bb6de6de2cf4cdd9617c"
+  },
+  {
+    "work": 14,
+    "file": "original_figures/14_c6d85e6c4d_dose_survival.png",
+    "title": "dose survival",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "preprocessing_integrity_v2/n/analysis/dose_survival.png",
+    "sha256": "c6d85e6c4d76ed776a96491f53cd00d6c108b8c056fbd391a43915fab0d48e98"
+  },
+  {
+    "work": 14,
+    "file": "original_figures/14_926fb8161e_dose_tracking.png",
+    "title": "dose tracking",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "preprocessing_integrity_v2/n/analysis/dose_tracking.png",
+    "sha256": "926fb8161e1b6deda3c019a95f882f4fda0b94392b33828c0655511beb241224"
+  },
+  {
+    "work": 14,
+    "file": "original_figures/14_d6199893c6_equivalence_survival.png",
+    "title": "equivalence survival",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "preprocessing_integrity_v2/n/analysis/equivalence_survival.png",
+    "sha256": "d6199893c6ad2f57f8c57cf73ddf5e7a2117c00dd7198d455bfbd08fb7361c1d"
+  },
+  {
+    "work": 15,
+    "file": "original_figures/15_34ba2c9759_final_survival.png",
+    "title": "final survival",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "preprocessing_integrity_v2/t/analysis/final_survival.png",
+    "sha256": "34ba2c975984a03011e85f34d3ec90029e37f5064ef658ba793387d776539ff4"
+  },
+  {
+    "work": 15,
+    "file": "original_figures/15_65b9f30540_pulse_recovery.png",
+    "title": "pulse recovery",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "preprocessing_integrity_v2/t/analysis/pulse_recovery.png",
+    "sha256": "65b9f305405017910d1aa2b3c9dc889b17c53b0eb1d5f3c1fb2d0f1a765146c8"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_f64c187111_paired_mean_action_delta_l2.png",
+    "title": "paired mean action delta l2",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "effective_dose_response/paired_mean_action_delta_l2.png",
+    "sha256": "f64c1871115ded4934995097965353c208077ce0b60217211e02a6d36d9f98ee"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_e3cf256cbd_paired_mean_seconds.png",
+    "title": "paired mean seconds",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "effective_dose_response/paired_mean_seconds.png",
+    "sha256": "e3cf256cbdd8da6648a2f76c1547cfdcec5b196f6f36937e2c41fdf101858309"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_ee0e59b89f_paired_mean_vx_error_mps.png",
+    "title": "paired mean vx error mps",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "effective_dose_response/paired_mean_vx_error_mps.png",
+    "sha256": "ee0e59b89f909d6d5ba051711f1c075b992305157ed76789c3aeb4df698308eb"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_2fd5a99d0f_paired_success_rate.png",
+    "title": "paired success rate",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "effective_dose_response/paired_success_rate.png",
+    "sha256": "2fd5a99d0fc809b9610d86e87e14c22c28b2c21e003d38656f71bc7e8bec5555"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_ae03291a6f_survival_curves.png",
+    "title": "survival curves",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "effective_dose_response/survival_curves.png",
+    "sha256": "ae03291a6fb6a96b33f5a0d13199b99fcd56682fedce5e2ee071fdfa97dc2d67"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_e5c5a04931_clean_and_contamination.png",
+    "title": "clean and contamination",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "data_reanalysis_20261015_v2/clean_and_contamination.png",
+    "sha256": "e5c5a0493142aff0553520d8d6414049fc9d690c2cceaa31ee63ccd3cfb51e4e"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_33daee7fff_dose_full_grid.png",
+    "title": "dose full grid",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "data_reanalysis_20261015_v2/dose_full_grid.png",
+    "sha256": "33daee7fff7ed07ccd255d3e9e17adb8f38cecb8e8cac12fbfa04f52c5ef2806"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_79c2101c77_failure_timing.png",
+    "title": "failure timing",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "data_reanalysis_20261015_v2/failure_timing.png",
+    "sha256": "79c2101c7788dccf473adbf219ca28b36c08602e78c9af30f2f9aedfd974a8ac"
+  },
+  {
+    "work": 16,
+    "file": "original_figures/16_befc832b7e_training_recovery.png",
+    "title": "training recovery",
+    "note": "保留原实验图，不改变其样本、区间或协议定义。原图英文标注见本报告名词注释；探索、确认与历史快照不可混合累计。",
+    "kind": "retained_original",
+    "source": "data_reanalysis_20261015_v2/training_recovery.png",
+    "sha256": "befc832b7e71d7d9277029194b7d4d4e1e4e81af1e97a50d7abfe38c2d2ad34b"
+  },
+  {
+    "work": 4,
+    "file": "original_figures/04_23f856bff3_confirmatory_summary.png",
+    "title": "confirmatory summary",
+    "note": "早期筛查或旧确认图，协议可能含启动脉冲，不能替代后来新seed确认或纯行走精细基准；不重复计入9216回合。",
+    "kind": "retained_original",
+    "source": "sensor_fault_benchmark/confirmatory_summary.png",
+    "sha256": "23f856bff33ff4f2ff8ad4c8b66dddd5386f33b943d7316749e81a7866d560bc"
+  },
+  {
+    "work": 4,
+    "file": "original_figures/04_65ae80a46b_sensor_fault_heatmaps.png",
+    "title": "sensor fault heatmaps",
+    "note": "早期筛查或旧确认图，协议可能含启动脉冲，不能替代后来新seed确认或纯行走精细基准；不重复计入9216回合。",
+    "kind": "retained_original",
+    "source": "sensor_fault_benchmark/sensor_fault_heatmaps.png",
+    "sha256": "65ae80a46b132ff710f78cdc7e2c1b4508ed19cbee6e274ac1444b4598fe8aa2"
+  }
+]

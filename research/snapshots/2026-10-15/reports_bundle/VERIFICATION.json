@@ -1,0 +1,97 @@
+{
+  "complete": true,
+  "reports": 16,
+  "figures": 192,
+  "new_existing_data_figures": 87,
+  "retained_original_figures": 105,
+  "source_files_sha_rechecked": 4190,
+  "raw_csv_unique_files_rechecked": 4028,
+  "raw_rows_rechecked": 419136,
+  "survival_curve_groups_checked": 1692,
+  "work_coverage": [
+    {
+      "work": 3,
+      "indexed_records": 48,
+      "episodes": 6144,
+      "note": ""
+    },
+    {
+      "work": 4,
+      "indexed_records": 72,
+      "episodes": 9216,
+      "note": ""
+    },
+    {
+      "work": 5,
+      "indexed_records": 2072,
+      "episodes": 171328,
+      "note": ""
+    },
+    {
+      "work": 6,
+      "indexed_records": 32,
+      "episodes": 4096,
+      "note": ""
+    },
+    {
+      "work": 8,
+      "indexed_records": 40,
+      "episodes": 2560,
+      "note": ""
+    },
+    {
+      "work": 9,
+      "indexed_records": 40,
+      "episodes": 2560,
+      "note": ""
+    },
+    {
+      "work": 10,
+      "indexed_records": 60,
+      "episodes": 3840,
+      "note": ""
+    },
+    {
+      "work": 11,
+      "indexed_records": 8,
+      "episodes": 512,
+      "note": ""
+    },
+    {
+      "work": 12,
+      "indexed_records": 192,
+      "episodes": 192,
+      "note": "192 episode records from 12 physical cases"
+    },
+    {
+      "work": 13,
+      "indexed_records": 10,
+      "episodes": 640,
+      "note": ""
+    },
+    {
+      "work": 14,
+      "indexed_records": 336,
+      "episodes": 43008,
+      "note": ""
+    },
+    {
+      "work": 15,
+      "indexed_records": 528,
+      "episodes": 67584,
+      "note": ""
+    },
+    {
+      "work": 16,
+      "indexed_records": 900,
+      "episodes": 115200,
+      "note": ""
+    }
+  ],
+  "new_experiments": 0,
+  "new_training": 0,
+  "source_mutations": 0,
+  "video_sha_matches": 12,
+  "video_decode": "inherited prior verification; no new decode claim",
+  "scope": "No inferred unrecorded telemetry; cancelled supplement remains 0."
+}
